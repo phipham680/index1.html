@@ -3,64 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khám phá Pù Luông</title>
+    <title>Pù Luông - Khu bảo tồn thiên nhiên</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f8f3;
-            color: #333;
             margin: 0;
-            padding: 0;
+            background-color: #f7fdf9;
+            color: #333;
         }
 
         header {
             background-image: url('https://cdn.pixabay.com/photo/2020/12/13/10/12/puluong-5828377_1280.jpg');
             background-size: cover;
             background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             color: white;
-            padding: 100px 20px;
-            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
         }
 
         header h1 {
             font-size: 48px;
-            margin: 0;
         }
 
-        nav {
-            background-color: #3e8e41;
-            padding: 10px 20px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 40px 20px;
+        main {
             max-width: 1000px;
-            margin: auto;
+            margin: 40px auto;
+            padding: 0 20px;
         }
 
         h2 {
             color: #2d7032;
+            margin-top: 40px;
         }
 
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 20px;
+        p {
+            line-height: 1.6;
         }
 
-        .gallery img {
-            width: 100%;
-            max-width: 300px;
+        img {
+            max-width: 100%;
             border-radius: 10px;
+            margin: 20px 0;
         }
 
         footer {
@@ -68,58 +54,58 @@
             color: white;
             text-align: center;
             padding: 20px;
-            margin-top: 40px;
+            margin-top: 60px;
+        }
+
+        .back-link {
+            display: block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #2d7032;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Khám phá Pù Luông</h1>
-        <p>Thiên nhiên hoang sơ giữa lòng Thanh Hóa</p>
+        <h1>Pù Luông</h1>
     </header>
 
-    <nav>
-        <a href="#gioithieu">Giới thiệu</a>
-        <a href="#hoatdong">Hoạt động</a>
-        <a href="#hinhanh">Hình ảnh</a>
-        <a href="#lienhe">Liên hệ</a>
-    </nav>
+    <main>
+        <a href="index.html" class="back-link">&larr; Quay về trang chính</a>
 
-    <section id="gioithieu">
-        <h2>Giới thiệu về Pù Luông</h2>
-        <p>Khu bảo tồn thiên nhiên Pù Luông nằm ở phía Tây Bắc tỉnh Thanh Hóa, là điểm đến tuyệt vời cho những ai yêu thích thiên nhiên, muốn tận hưởng không khí trong lành và vẻ đẹp của núi rừng Tây Bắc. Với những thửa ruộng bậc thang uốn lượn, bản làng yên bình và người dân thân thiện, Pù Luông ngày càng thu hút nhiều du khách trong và ngoài nước.</p>
-    </section>
+        <h2>Giới thiệu</h2>
+        <p>
+            Pù Luông là một khu bảo tồn thiên nhiên nằm ở phía Tây Bắc tỉnh Thanh Hóa, Việt Nam. Nơi đây nổi tiếng với vẻ đẹp hoang sơ, yên bình cùng những thửa ruộng bậc thang hùng vĩ, những bản làng truyền thống của người Thái và Mường, cũng như khí hậu mát mẻ quanh năm.
+        </p>
 
-    <section id="hoatdong">
-        <h2>Các hoạt động nổi bật</h2>
+        <img src="https://cdn.pixabay.com/photo/2020/12/13/10/13/puluong-5828380_1280.jpg" alt="Cảnh đẹp Pù Luông">
+
+        <h2>Hoạt động nổi bật</h2>
         <ul>
-            <li>Leo núi và trekking qua rừng nguyên sinh</li>
-            <li>Khám phá các bản làng người Thái, Mường</li>
-            <li>Tham quan ruộng bậc thang mùa lúa chín</li>
-            <li>Trải nghiệm ẩm thực địa phương</li>
-            <li>Homestay tại nhà sàn truyền thống</li>
+            <li>🌿 Trekking xuyên rừng và leo núi Pù Luông</li>
+            <li>🏡 Ở homestay tại nhà sàn truyền thống</li>
+            <li>📸 Chụp ảnh tại ruộng bậc thang và thác nước</li>
+            <li>🍴 Thưởng thức đặc sản địa phương</li>
+            <li>🚲 Đạp xe quanh bản làng yên bình</li>
         </ul>
-    </section>
 
-    <section id="hinhanh">
-        <h2>Hình ảnh Pù Luông</h2>
-        <div class="gallery">
-            <img src="https://cdn.pixabay.com/photo/2020/12/13/10/12/puluong-5828377_1280.jpg" alt="Phong cảnh Pù Luông">
-            <img src="https://cdn.pixabay.com/photo/2020/12/13/10/13/puluong-5828379_1280.jpg" alt="Ruộng bậc thang Pù Luông">
-            <img src="https://cdn.pixabay.com/photo/2020/12/13/10/13/puluong-5828380_1280.jpg" alt="Bản làng ở Pù Luông">
-        </div>
-    </section>
+        <h2>Thời điểm du lịch lý tưởng</h2>
+        <p>
+            Thời điểm đẹp nhất để đến Pù Luông là vào tháng 5-6 và tháng 9-10 – mùa lúa chín vàng rực rỡ trên những thửa ruộng bậc thang. Không khí trong lành, cảnh vật thơ mộng – rất thích hợp để nghỉ dưỡng và khám phá.
+        </p>
 
-    <section id="lienhe">
-        <h2>Liên hệ</h2>
-        <p>Địa chỉ: Pù Luông, Bá Thước, Thanh Hóa</p>
-        <p>Email: info@dulichpuluong.vn</p>
-        <p>Điện thoại: 0123 456 789</p>
-    </section>
+        <h2>Địa chỉ & liên hệ</h2>
+        <p>
+            📍 Khu bảo tồn Pù Luông, huyện Bá Thước, tỉnh Thanh Hóa, Việt Nam<br>
+            📞 Điện thoại: 0123 456 789<br>
+            ✉️ Email: info@dulichpuluong.vn
+        </p>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Du lịch Pù Luông. All rights reserved.</p>
+        <p>&copy; 2025 Pù Luông Travel. All rights reserved.</p>
     </footer>
 
 </body>
